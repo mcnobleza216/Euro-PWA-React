@@ -1,0 +1,95 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:#0079AA;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: large;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#Main {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#Main label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #333;
+}
+
+#Main select{
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  color: #333;
+}
+#Main button {
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: #0079AA;
+  border: 1px solid #ccc;
+  color: #fff;
+}
+
+.floating-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px #0079AA;
+  display: none;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.floating-form .form-row {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.floating-form .formlabel {
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.floating-form input[type="text"] {
+  width: 200px;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+.floating-form button {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color:#0079AA;
+  color: #fff;
+  border: none;
+  align-self: flex-end;
+}

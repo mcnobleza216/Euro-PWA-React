@@ -1,0 +1,22 @@
+[
+        {
+            "ch_finscheme_id": "01",
+            "vc_finscheme_name": "IN-HOUSE FINANCING"
+        },
+        {
+            "ch_finscheme_id": "02",
+            "vc_finscheme_name": "SPOT CASH"
+        },
+        {
+            "ch_finscheme_id": "03",
+            "vc_finscheme_name": "DEFERRED CASH"
+        },
+        {
+            "ch_finscheme_id": "04",
+            "vc_finscheme_name": "PAG-IBIG RETAIL"
+        },
+        {
+            "ch_finscheme_id": "05",
+            "vc_finscheme_name": "BANK FINANCING"
+        }
+    ]
